@@ -4,9 +4,10 @@ import { HelloWorld } from './hello-world/hello-world';
 import { OiTurma } from './oi-turma/oi-turma';
 import { ExemploInterpolacao } from './exemplo-interpolacao/exemplo-interpolacao';
 import { ExemploObjeto } from './exemplo-objeto/exemplo-objeto';
+import { Header } from './components/header/header';
 
 @Component({
-  imports: [RouterOutlet, HelloWorld, OiTurma, ExemploInterpolacao, ExemploObjeto],
+  imports: [RouterOutlet, HelloWorld, OiTurma, ExemploInterpolacao, ExemploObjeto, Header],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
