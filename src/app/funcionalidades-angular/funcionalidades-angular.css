@@ -1,0 +1,4 @@
+.botao-desabilitado {
+    cursor: not-allowed;
+    border: 1px solid red;
+}
