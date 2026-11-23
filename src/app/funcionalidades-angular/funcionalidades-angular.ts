@@ -13,6 +13,8 @@ export class FuncionalidadesAngular {
 
   botaoDesabilitado = false;
 
+  urlImagem = '';
+
   mostrarMensagem() {
     this.botaoDesabilitado = !this.botaoDesabilitado;
   }
