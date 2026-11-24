@@ -15,6 +15,8 @@ export class FuncionalidadesAngular {
 
   urlImagem = '';
 
+  personagemCrepusculo = '';
+
   mostrarMensagem() {
     this.botaoDesabilitado = !this.botaoDesabilitado;
   }

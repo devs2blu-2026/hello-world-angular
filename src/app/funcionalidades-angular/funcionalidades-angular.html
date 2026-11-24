@@ -11,9 +11,32 @@
 
 <p>{{ texto }}</p>
 
+<input [(ngModel)]="urlImagem" type="text" placeholder="Insira a url da imagem" />
 
-<input [(ngModel)]="urlImagem" type="text" placeholder="Insira a url da imagem">
+<img [src]="urlImagem" alt="" />
 
-<img [src]="urlImagem" alt="">
+<br /><br /><br />
 
+<input [(ngModel)]="personagemCrepusculo" type="text" placeholder="Insira seu personagem favorito do crepusculo"/>
+<br />
+<br />
 
+@if (personagemCrepusculo === 'Carlos') {
+  <img src="https://i.redd.it/n04f28eo16qb1.jpg" alt="" width="200px" />
+}
+<br />
+@if (personagemCrepusculo == 'Vampirinho') {
+  <img
+    width="200px"
+    src="https://i.pinimg.com/474x/8a/83/2a/8a832a42aaf0977952c3df1b44bbb041.jpg"
+    alt=""
+  />
+}
+<br />
+@if (personagemCrepusculo == 'Cara raquítico') {
+  <img
+    width="200px"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZMF_AkQJv0lTCXd3xMKJ-MNRv-FcqfOZX4Aqx_OPpEA&s=10"
+    alt=""
+  />
+}
