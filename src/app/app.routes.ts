@@ -4,6 +4,7 @@ import { ExemploObjeto } from './exemplo-objeto/exemplo-objeto';
 import { PaginaNaoEncontrada } from './components/pagina-nao-encontrada/pagina-nao-encontrada';
 import { FuncionalidadesAngular } from './funcionalidades-angular/funcionalidades-angular';
 import { Exercicio6 } from './exercicio-6/exercicio-6';
+import { ExemploForm } from './exemplo-form/exemplo-form';
 
 export const routes: Routes = [
 
@@ -11,6 +12,7 @@ export const routes: Routes = [
     { path: 'skate', component: ExemploObjeto },
     { path: 'funcionalidades-angular', component: FuncionalidadesAngular },
     { path: 'ex-6', component: Exercicio6 },
+    { path: 'aluno-form', component: ExemploForm },
     { path: '', redirectTo: 'oi-turma', pathMatch: 'full' },
     { path: '**', component: PaginaNaoEncontrada }
 

@@ -1,0 +1,18 @@
+<form (submit)="cadastrarAluno($event)">
+  <!-- Input do nome -->
+  <input type="text" [formField]="alunoForm.nome" />
+
+  <!-- Input do email -->
+  <input type="email" [formField]="alunoForm.email" />
+
+  <!-- Input da senha -->
+  <input type="password" [formField]="alunoForm.senha" />
+
+  <!-- Input da data de nascimento -->
+  <input type="date" [formField]="alunoForm.dataNascimento" />
+
+  <!-- Input da média -->
+  <input type="text" inputmode="numeric" [formField]="alunoForm.media" />
+
+  <button>Cadastrar aluno</button>
+</form>
